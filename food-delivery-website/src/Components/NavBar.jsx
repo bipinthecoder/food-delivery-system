@@ -14,18 +14,18 @@ class NavBar extends Component{
         return(
             <>
             <nav className={`navbar ${style.navBar}`}>
-                <div>
+                <div className={`${style.flexRow}`}>
                     <Link className="navbar-brand" to="/" style={{marginLeft:"0px",color:"black",marginRight:"50px"}}>
                         Wonder <span style={{color:"green"}}>Eats</span>
                         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Walmart_Spark.svg/94px-Walmart_Spark.svg.png" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy"></img>
                     </Link>
                
-                    <Link className={`mr-2 mr-md-4`}>
+                    <div className={`mr-2 mr-md-4`}>
                         <FontAwesomeIcon icon="map-marker" style={{color:"black",width:24,height:24}}/><span style={{color:"black"}}>Location</span>
-                    </Link>
-                    <Link>
+                    </div>
+                    <div>
                         <FontAwesomeIcon icon="clock" style={{color:"black",width:24,height:24}}/><span style={{color:"black"}}>Fast Delivery</span>
-                    </Link>
+                    </div>
                 </div>
                 <div className={`${style.flexRow}`}>
                     <Link className={`${style.signIn}`}>

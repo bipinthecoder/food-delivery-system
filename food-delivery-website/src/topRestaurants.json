@@ -1,0 +1,5 @@
+[
+    {"url":"https://images.financialexpress.com/2017/10/indian-accent-res-lpweb.jpg","name":"PLAZA HIGH", "votes":20,"reviews":400, "min":"$50","cost":650,"payment":"Online", "stars":4,"categories":["Continental,Pizza,Asian,Desserts"]},
+    {"url":"https://www.valuewalk.com/wp-content/uploads/2017/11/Restaurant__1510844341.jpg.webp","name":"URU BREWPARK", "votes":766,"reviews":512, "min":"$50","cost":600,"payment":"Online", "stars":4,"categories":["South Indian,Pizza,Asian,Desserts"]},
+    {"url":"https://www.elitetraveler.com/wp-content/uploads/2013/08/latelier-de-joel-food-770.jpg","name":"PIZZA PARK", "votes":900,"reviews":800, "min":"$10","cost":100,"payment":"Card", "stars":3,"categories":["Thai,Pizza,Asian,Cakes"]}
+]
