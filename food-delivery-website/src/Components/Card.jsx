@@ -15,7 +15,7 @@ class Card extends Component{
         const offer = item.min;
         const rating = item.stars
         return(
-            <div className="col-4">
+            <div className="col-12 col-md-4">
                 <div className="card" style={{width:"22rem",border:"1px solid black",marginRight:12,marginBottom:20}}>
                     <img src={url} className="card-img-top" alt={`${name} Restaurant`} style={{height:"200px"}}></img>
                     <div className="card-body">
