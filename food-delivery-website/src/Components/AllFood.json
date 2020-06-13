@@ -1,0 +1,104 @@
+[
+    {
+        "name":"Momos",
+        "descr":"Fried Vegetable or Chicken Momos(Smoked)",
+        "rate":"$8.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Chicken Malai Tikka(3 Pieces)",
+        "descr":"Cream Cheese Marinated Chicken",
+        "rate":"$10.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Momos",
+        "descr":"Fried Vegetable or Chicken Momos(Smoked)",
+        "rate":"$8.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"PIZZA PARK's Bundle for 2",
+        "descr":"Veg Samosa,Butter Chicken,2X Butter Nan",
+        "rate":"$68.50",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"PIZZA PARK's Veg Bundle for 2",
+        "descr":"Chicken Malai Tikka, Vegetable Samosa, Butter",
+        "rate":"$68.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Tandoori Lamb Chops",
+        "descr":"Lamb CHops with coriander",
+        "rate":"$15.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Vegetable Biriyani",
+        "descr":"Seasonal Veg Dum cooked (Fragnance Added)",
+        "rate":"$15.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"PIZZA PARK's Bundle for 2",
+        "descr":"Veg Samosa,Butter Chicken,2X Butter Nan",
+        "rate":"$68.50",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"PIZZA PARK's Veg Bundle for 2",
+        "descr":"Chicken Malai Tikka, Vegetable Samosa, Butter",
+        "rate":"$68.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Tandoori Lamb Chops",
+        "descr":"Lamb CHops with coriander",
+        "rate":"$15.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"PIZZA PARK"
+    },
+    {
+        "name":"Vegetable Cutlet",
+        "descr":"Seasonal Veg Dum cooked (Fragnance Added)",
+        "rate":"$3.00",
+        "restaurant":"PIZZA PARK"
+    }
+]
