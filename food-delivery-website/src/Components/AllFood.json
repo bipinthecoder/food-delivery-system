@@ -100,5 +100,272 @@
         "descr":"Seasonal Veg Dum cooked (Fragnance Added)",
         "rate":"$3.00",
         "restaurant":"PIZZA PARK"
+    },
+
+
+
+
+
+
+
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"PLAZA HIGH"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"PLAZA HIGH"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"PLAZA HIGH"
+    },
+    {
+        "name":"Vegetable Biriyani",
+        "descr":"Seasonal Veg Dum cooked (Fragnance Added)",
+        "rate":"$15.00",
+        "restaurant":"PLAZA HIGH"
+    },
+    {
+        "name":"PIZZA PARK's Bundle for 2",
+        "descr":"Veg Samosa,Butter Chicken,2X Butter Nan",
+        "rate":"$68.50",
+        "restaurant":"PLAZA HIGH"
+    },
+    {
+        "name":"PIZZA PARK's Veg Bundle for 2",
+        "descr":"Chicken Malai Tikka, Vegetable Samosa, Butter",
+        "rate":"$68.00",
+        "restaurant":"PLAZA HIGH"
+    },
+    {
+        "name":"Tandoori Lamb Chops",
+        "descr":"Lamb CHops with coriander",
+        "rate":"$15.00",
+        "restaurant":"PLAZA HIGH"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"PLAZA HIGH"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"PLAZA HIGH"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"PLAZA HIGH"
+    },
+
+
+
+
+
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"URU BREWPARK"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"URU BREWPARK"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"URU BREWPARK"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"URU BREWPARK"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"URU BREWPARK"
+    },
+
+
+
+
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"SILVER FOG"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"SILVER FOG"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"SILVER FOG"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"SILVER FOG"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"SILVER FOG"
+    },
+
+
+
+
+
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"DREAM FISH"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"DREAM FISH"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"DREAM FISH"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"DREAM FISH"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"DREAM FISH"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"DREAM FISH"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"DREAM FISH"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"DREAM FISH"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"DREAM FISH"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"DREAM FISH"
+    },
+
+
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"CHINESE PASTA HUT"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"CHINESE PASTA HUT"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"CHINESE PASTA HUT"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"CHINESE PASTA HUT"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"CHINESE PASTA HUT"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"CHINESE PASTA HUT"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"CHINESE PASTA HUT"
+    },
+    {
+        "name":"Lamb Bririyani",
+        "descr":"Lamb Dum cooked (Fragnance Added)",
+        "rate":"$17.00",
+        "restaurant":"CHINESE PASTA HUT"
+    },
+    {
+        "name":"Lamb Sheekh kebab",
+        "descr":"Traditional Minced lamb Kebab",
+        "rate":"$10.00",
+        "restaurant":"CHINESE PASTA HUT"
+    },
+    {
+        "name":"Tandoori Prawn",
+        "descr":"Grilled jumbo Prawns(2Pieces)",
+        "rate":"$13.00",
+        "restaurant":"CHINESE PASTA HUT"
     }
+    
+
+
+
 ]

@@ -54,7 +54,7 @@ class Restaurant extends Component{
                             }
                             </div>
                             <div>
-                                <Pagination perPage={perPage} totalPosts = {totalTopRest} paginate={this.foodPaginate} className="mx-auto"/>
+                                <Pagination perPage={perPage} totalPosts = {foodData.filter(item=>item.restaurant == matchedName).length} paginate={this.foodPaginate} className="mx-auto"/>
                             </div>
                         </div>
                         <div className={`col-1`}></div>

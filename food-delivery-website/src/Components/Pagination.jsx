@@ -11,7 +11,7 @@ const Pagination = ({perPage,totalPosts,paginate})=>{
    
 
     return(
-        <nav style={{paddingRight:20,alignItems:"end",paddingLeft:"90%"}}>
+        <nav style={{paddingRight:20,alignItems:"end",paddingLeft:"0%"}}>
             <ul className="pagination">
                 {pageNumbers.map(number =>(
                     <li key={uuidv4()} className="page-item">
