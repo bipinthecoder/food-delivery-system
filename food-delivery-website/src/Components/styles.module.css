@@ -6,7 +6,8 @@
 
 
 .footer{
-    background-color: #303036;
+    /* background-color: #303036; */
+    background-color: black;
     color:#d3d3d3;
     height: 350px;
     position: relative;
@@ -20,6 +21,23 @@
 .footerContent{
     /* border: 1px solid red; */
     height: 350px;
+    display: flex;
+    flex-direction: row;
+}
+.footerContent > :nth-child(2){
+    margin-left: 50%;
+}
+.footerAbout{
+    margin-top: 5%;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.footerAbout > *{
+    margin-bottom: 5%;
+}
+.footer > *{
+    color: white;
 }
 
 .footerBottom{

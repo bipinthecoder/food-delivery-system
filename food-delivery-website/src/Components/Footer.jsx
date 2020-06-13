@@ -8,7 +8,20 @@ const Footer = ()=>{
         <>
             <div className={`footer ${style.footer}`}>
                 <div className={`footer-content ${style.footerContent}`}>
-                    <div className="footer-about"></div>
+                    <div className={`footer-about ${style.footerAbout}`}>
+                        <div>About WonderEats</div>
+                        <div>Read our blog</div>
+                        <div>Buy Gift Cards</div>
+                        <div>Create a Business Account</div>
+                        <div>Add your own Restaurant</div>
+                    </div>
+                    <div className={`footer-about ${style.footerAbout}`}>
+                        <div>Get Help</div>
+                        <div>Read FAQs</div>
+                        <div>View all Cities</div>
+                        <div>View all Countries</div>
+                        <div>Restaurants near me</div>
+                    </div>
                     <div className="footer-links"></div>
                     <div className="footer-social"></div>
                 </div>

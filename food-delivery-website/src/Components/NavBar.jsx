@@ -25,15 +25,19 @@ class NavBar extends Component{
                     <div className={`mr-2 mr-md-4`}>
                         <FontAwesomeIcon icon="map-marker" style={{color:"black",width:24,height:24}}/><span style={{color:"black"}}>Location</span>
                     </div>
-                    <div>
+                    {/* <div>
                         <FontAwesomeIcon icon="clock" style={{color:"black",width:24,height:24}}/><span style={{color:"black"}}>Fast Delivery</span>
-                    </div>
+                    </div> */}
                 </div>
                 <div className={`${style.flexRow}`}>
-                    <Link className={`${style.signIn}`}>
-                        <FontAwesomeIcon icon="user" style={{color:"black",width:24,height:24}}/>
+                    <Link to="/Cart" className={`${style.signIn}`}>
+                        <FontAwesomeIcon icon="cart-plus" style={{color:"black",width:24,height:24}}/>
+                        <span style={{color:"black"}}>Cart</span>
                     </Link>
-                    <span style={{color:"black"}}>SignIn</span>
+                    <Link to="/Profile" className={`${style.signIn}`}>
+                        <FontAwesomeIcon icon="user" style={{color:"black",width:24,height:24}}/>
+                        <span style={{color:"black"}}>SignIn</span>
+                    </Link>
                 </div>
             
             </nav>
