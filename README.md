@@ -7,7 +7,7 @@ The user can select their favourite food and order it.
 <br />
 This Application is created using Create React App.
 <br />
-Installation: <br />
+<h2>Installation<h2>
 1.Clone the repo<br />
 2.run npm install<br />
 3.npm start<br />
