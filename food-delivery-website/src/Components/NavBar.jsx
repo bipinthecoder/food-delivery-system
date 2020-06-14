@@ -34,7 +34,7 @@ class NavBar extends Component{
                         <FontAwesomeIcon icon="cart-plus" style={{color:"black",width:24,height:24}}/>
                         <span style={{color:"black"}}>Cart</span>
                     </Link>
-                    <Link to="/Profile" className={`${style.signIn}`}>
+                    <Link to="/Login" className={`${style.signIn}`}>
                         <FontAwesomeIcon icon="user" style={{color:"black",width:24,height:24}}/>
                         <span style={{color:"black"}}>SignIn</span>
                     </Link>

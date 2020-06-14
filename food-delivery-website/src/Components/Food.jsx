@@ -37,14 +37,14 @@ class Food extends Component{
                                 </small>
                             </div>
                             <hr></hr>
-                            <div className={`${FoodStyle.footer}`}>
+                            <div className={`${FoodStyle.footer} d-flex flex-column flex-sm-row`}>
                                 <div className={`d-flex flex-row`}>
                                     <button className={`btn rounded-circle btn-dark`} >-</button>
                                     <p className={`ml-3 mr-3 text-center h4`}>1</p>
                                     <button className={`btn rounded-circle btn-dark`} >+</button>
                                 </div>
                                 <div>
-                                    <button className={` btn btn-dark ml-4`} >Add 1 to Order</button>
+                                    <button className={` btn  btn-dark ml-0 ml-sm-4 mt-4 mt-sm-0`} >Add 1 to Order</button>
                                 </div>
                             </div>
                     </div>
