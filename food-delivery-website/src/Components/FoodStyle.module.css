@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    padding: 5%;
+    border-radius: 50px;
+}
+.container > *{
+    margin-bottom: 4%;
+}
+
+.bbottom{
+    border-bottom: 1px solid rgb(0,0,0);
+}
+.btop{
+    border-top: 1px solid rgb(0,0,0);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}

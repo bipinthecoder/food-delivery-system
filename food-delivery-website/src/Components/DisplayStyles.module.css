@@ -84,6 +84,11 @@
 
 }
 
+.foodShowMain > *:hover{
+    border: 1px solid black !important;
+    cursor: pointer;
+}
+
 
 
 

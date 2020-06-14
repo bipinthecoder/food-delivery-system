@@ -23,9 +23,11 @@
     height: 350px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .footerContent > :nth-child(2){
     margin-left: 50%;
+    
 }
 .footerAbout{
     margin-top: 5%;
@@ -51,6 +53,7 @@
     left: 0px;
     padding-top: 20px;
 }
+
 
 .pageWrapper{
     min-height: 100%;

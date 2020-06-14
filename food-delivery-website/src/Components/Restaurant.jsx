@@ -4,6 +4,8 @@ import foodData from "./AllFood.json";
 import { v4 as uuidv4 } from 'uuid';
 import FoodCard from "./FoodCard";
 import Pagination from "./Pagination";
+import {Link} from "react-router-dom";
+
 
 class Restaurant extends Component{
     constructor(props){
@@ -22,8 +24,8 @@ class Restaurant extends Component{
         
         console.log("Inside Restaurants Page");
         const {match,data} = this.props;
-        console.log(match);
-        console.log("data received in restaurants.jsx is",data);
+        console.log("match inside restaurant is",match);
+        // console.log("data received in restaurants.jsx is",data);
         const matchedName = match.params.name;
 
         const productObj = data.find(element => element.name == matchedName);
@@ -49,7 +51,11 @@ class Restaurant extends Component{
                             {foodData.filter(item=>item.restaurant == matchedName)
                             .filter((item,index)=> index >= (foodActivePage - 1)*perPage && index < foodActivePage * perPage)
                             .map(item=>
-                                <FoodCard food = {item} key={uuidv4()}/>
+                                (
+                                <Link to={`${match.url}/${item.name}`} key={uuidv4()}>
+                                <FoodCard food = {item} match={match}/>
+                                </Link>
+                                )
                             )
                             }
                             </div>
