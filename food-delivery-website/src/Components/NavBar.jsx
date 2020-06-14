@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {Link,Route,Switch} from "react-router-dom";
 import style from "./styles.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {AppContext} from "../Utils/AppProvider";
 
 
 class NavBar extends Component{
@@ -11,6 +12,8 @@ class NavBar extends Component{
 
 
     render(){
+        const {userName,isAuth} = this.context;
+        let displayName = isAuth == true? userName: "SignIn";
         return(
             <>
             <nav className={`navbar ${style.navBar}`}>
@@ -36,7 +39,7 @@ class NavBar extends Component{
                     </Link>
                     <Link to="/Login" className={`${style.signIn}`}>
                         <FontAwesomeIcon icon="user" style={{color:"black",width:24,height:24}}/>
-                        <span style={{color:"black"}}>SignIn</span>
+                        <span style={{color:"black"}}>{displayName}</span>
                     </Link>
                 </div>
             
@@ -51,5 +54,6 @@ class NavBar extends Component{
 
 
 }
+NavBar.contextType = AppContext;
 
 export default NavBar;

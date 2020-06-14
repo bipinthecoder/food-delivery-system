@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import bodyStyles from "./styles.module.css";
 import FoodStyle from "./FoodStyle.module.css";
 import style from "./Login.module.css";
+import {Redirect} from "react-router-dom";
+import {AppContext} from "../Utils/AppProvider";
 
 class Login extends Component{
     constructor(props){
@@ -21,6 +23,11 @@ class Login extends Component{
 
 
     render(){
+        const {userName,pass} = this.state;
+        const {submitForm,isAuth} = this.context;
+        if(isAuth){
+            return <Redirect to="/"/>
+        }
         return(
         
             <div className={`${bodyStyles.body} container-fluid`}>
@@ -34,28 +41,26 @@ class Login extends Component{
                             </div>
                             <hr></hr>
                             <div className={`${FoodStyle.footer} d-flex flex-column`}>
-                            <form onSubmit={this.submitForm} className={style.form}>
-                                <div className={style.name}>
-                                    <label htmlFor="name" className={`${style.label} text-muted`}> <h4>User Name</h4></label>
-                                    <input name="userName" type="text" placeholder="username" value={this.state.userName} 
-                                    onChange= {this.handleFormData}>
-                                    </input>
+                                <div className={style.form}>
+                                    <div className={style.name}>
+                                        <label htmlFor="name" className={`${style.label} text-muted`}> <h4>User Name</h4></label>
+                                        <input name="userName" type="text" placeholder="username" value={userName} 
+                                        onChange= {this.handleFormData}>
+                                        </input>
+                                    </div>
+                                    <div className={style.name}>
+                                        <label htmlFor="pass" className={`${style.label} text-muted`}><h4>Password</h4></label>
+                                        <input name="pass" type="text" placeholder="password" value={pass} 
+                                        onChange= {this.handleFormData}>
+                                        </input>
+                                    </div>
+                                    
+                                    
+                                    <div className={style.name}>
+                                        
+                                        <button className={`${style.inputSubmit} btn btn-info`} onClick={()=>submitForm(userName,pass)}>Submit</button>
+                                    </div>
                                 </div>
-                                <div className={style.name}>
-                                    <label htmlFor="pass" className={`${style.label} text-muted`}><h4>Password</h4></label>
-                                    <input name="pass" type="text" placeholder="password" value={this.state.pass} 
-                                    onChange= {this.handleFormData}>
-                                    </input>
-                                </div>
-                                
-                                
-                                <div className={style.name}>
-                                    <label htmlFor="submit" className={style.label}></label>
-                                    <input type="submit" value="SUBMIT" className={style.inputSubmit} name="submit"
-                                    onChange= {this.handleFormData}>
-                                    </input>
-                                </div>
-                    </form>
                             </div>
                     </div>
                     </div>
@@ -67,5 +72,5 @@ class Login extends Component{
 }
 
 
-
+Login.contextType=AppContext;
 export default Login;

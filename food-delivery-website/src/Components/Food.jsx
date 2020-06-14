@@ -3,12 +3,36 @@ import style from "./DisplayStyles.module.css";
 import bodyStyles from "./styles.module.css";
 import allRest from "./AllRestaurants.json";
 import FoodStyle from "./FoodStyle.module.css";
+import {AppContext} from "../Utils/AppProvider";
 
 class Food extends Component{
     constructor(props){
         super(props);
     }
-
+    
+    handleModal = ()=>{
+        console.log("Inside Modal");
+        alert("Added to Cart!!!")
+        return(
+            <div className="modal" tabindex="-1" role="dialog">
+                <div className="modal-dialog" role="document">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div className="modal-body">
+                            <p>Item(s) added to cart</p>
+                        </div>
+                        <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
 
 
     render(){
@@ -19,6 +43,7 @@ class Food extends Component{
         const restName = match.params.name;
         const matchedAllRest = allRest.find(element=>element.name == restName);
         console.log(matchedAllRest,matchedObj);
+        const {handleAddToCart} = this.context;
         return(
             <div className={`${bodyStyles.body} container-fluid`}>
                 <div className="row">
@@ -44,7 +69,7 @@ class Food extends Component{
                                     <button className={`btn rounded-circle btn-dark`} >+</button>
                                 </div>
                                 <div>
-                                    <button className={` btn  btn-dark ml-0 ml-sm-4 mt-4 mt-sm-0`} >Add 1 to Order</button>
+                                    <button className={` btn  btn-dark ml-0 ml-sm-4 mt-4 mt-sm-0`} onClick={()=>{handleAddToCart(matchedObj);this.handleModal();}} >Add 1 to Order</button>
                                 </div>
                             </div>
                     </div>
@@ -57,5 +82,5 @@ class Food extends Component{
 }
 
 
-
+Food.contextType=AppContext;
 export default Food;
