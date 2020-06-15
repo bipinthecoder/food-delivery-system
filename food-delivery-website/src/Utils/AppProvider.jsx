@@ -1,6 +1,6 @@
 import React,{createContext, Component} from "react";
 import {store} from "../Redux/store";
-import {addToCart,removeFromCart,authorizeUser,dontAuthorizeUser} from "../Redux/actions";
+import {addToCart,removeFromCart,clearCart,authorizeUser,dontAuthorizeUser} from "../Redux/actions";
 import { v4 as uuidv4 } from 'uuid';
 
 export const AppContext = createContext();
@@ -35,15 +35,22 @@ class AppProvider extends Component{
     handleAddToCart=(payload)=>{
         let isAuth = store.getState().isAuth;
         if(isAuth){
+            alert("Item(s) added to cart")
             store.dispatch(addToCart(payload))
         }
     };
 
+    handleClearCart = ()=>{
+        console.log("Inside clear cart");
+        alert("You have successfully checked out!")
+        store.dispatch(clearCart());
+    }
+
 
     render(){
-        const {handleAddToCart,submitForm} = this;
+        const {handleAddToCart,handleClearCart,submitForm} = this;
         return(
-            <AppContext.Provider value={{...store.getState(),handleAddToCart,submitForm}}>
+            <AppContext.Provider value={{...store.getState(),handleAddToCart,submitForm,handleClearCart}}>
                 {this.props.children}
             </AppContext.Provider>
         )

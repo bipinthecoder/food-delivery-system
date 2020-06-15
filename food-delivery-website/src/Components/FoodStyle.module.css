@@ -9,6 +9,11 @@
     margin-bottom: 4%;
 }
 
+.checkoutButton{
+    width:25%;
+    margin:0px auto;
+}
+
 .bbottom{
     border-bottom: 1px solid rgb(0,0,0);
 }

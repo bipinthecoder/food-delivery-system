@@ -1,4 +1,4 @@
-import {ADD_TO_CART,REMOVE_FROM_CART,AUTHORIZE_USER,DONT_AUTHORIZE_USER} from "./actionTypes";
+import {ADD_TO_CART,REMOVE_FROM_CART,AUTHORIZE_USER,DONT_AUTHORIZE_USER,CLEAR_CART} from "./actionTypes";
 
 
 export const addToCart=(payload)=>({
@@ -14,4 +14,7 @@ export const authorizeUser=()=>({
 })
 export const dontAuthorizeUser=()=>({
     type:DONT_AUTHORIZE_USER
+})
+export const clearCart=()=>({
+    type:CLEAR_CART
 })

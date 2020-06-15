@@ -1,11 +1,13 @@
-import {ADD_TO_CART,REMOVE_FROM_CART,AUTHORIZE_USER,DONT_AUTHORIZE_USER} from "./actionTypes";
+import {ADD_TO_CART,REMOVE_FROM_CART,CLEAR_CART,AUTHORIZE_USER,DONT_AUTHORIZE_USER} from "./actionTypes";
 import { v4 as uuidv4 } from 'uuid';
 
 export const initState = {
     isAuth:false,
     cart:[],
     userName:"mike",
-    pass:"mike"
+    pass:"mike",
+    totalAmount:0,
+    isClear:true
 };
 
 const reducer = (state=initState,{type,payload,id})=>{
@@ -20,7 +22,9 @@ const reducer = (state=initState,{type,payload,id})=>{
                 cart:[
                     ...state.cart,
                     payload
-                ]
+                ],
+                totalAmount:state.totalAmount + payload.total,
+                isClear:false
             }
         case REMOVE_FROM_CART:
             return{
@@ -36,6 +40,13 @@ const reducer = (state=initState,{type,payload,id})=>{
             return{
                 ...state,
                 isAuth:false
+            }
+        case CLEAR_CART:
+            return{
+                ...state,
+                cart:[],
+                totalAmount:0,
+                isClear:true
             }
         default:
             return state

@@ -68,6 +68,7 @@
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
+    flex-grow: 1;
 }
 .navBar > *{
     text-align: center;
