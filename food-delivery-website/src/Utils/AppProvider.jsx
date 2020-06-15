@@ -33,7 +33,10 @@ class AppProvider extends Component{
 
 
     handleAddToCart=(payload)=>{
-        store.dispatch(addToCart(payload))
+        let isAuth = store.getState().isAuth;
+        if(isAuth){
+            store.dispatch(addToCart(payload))
+        }
     };
 
 
