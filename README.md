@@ -8,6 +8,10 @@ The user can select their favourite food and order it.
 This Application is created using Create React App.
 <br />
 
+### Demo
+https://wondereats.netlify.app/
+
+
 ### Screenshot
 <p align="center">
   <img src="cocktail-project.png"  width="600px">
