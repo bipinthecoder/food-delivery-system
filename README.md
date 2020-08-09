@@ -7,6 +7,11 @@ The user can select their favourite food and order it.
 <br />
 This Application is created using Create React App.
 <br />
+
+### Screenshot
+<p align="center">
+  <img src="cocktail-project.png"  width="600px">
+<p>
 <h2>Installation<h2>
 1.Clone the repo<br />
 2.run npm install<br />
