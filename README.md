@@ -22,3 +22,7 @@ https://wondereats.netlify.app/
 1.Clone the repo<br />
 2.run npm install<br />
 3.npm start<br />
+                                                                                     
+## Login
+username : mike
+password: mike
