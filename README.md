@@ -14,7 +14,7 @@ https://wondereats.netlify.app/
 
 ### Screenshot
 <p align="center">
-  <img src="cocktail-project.png"  width="600px">
+  <img src="Food-Delivery-project.png"  width="600px">
 <p>
 <h2>Installation<h2>
 1.Clone the repo<br />
